@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8" />
+        <title>Introduce myself</title>
+        <link rel = "stylesheet" type = "text/css" href = "{{url_for('static',filename = 'site.css')}}" />
+    </head>
+    <body>
+        <div class = "Header">
+            <h1>自我介紹</h1>
+        </div>
+        <div class = "Aside">
+            <img src = "{{url_for('static', filename = 'images/photosticker.JPG')}}" alt = "photo sticker", style="width: 200px; height: auto; margin: 0 auto;">
+            <div style = "text-align: center;">
+                <h1>陳文嬡 Wen-Ai Chen</h1>
+            </div>
+            <h3>基本資料<h3>
+            <div class = "block1">
+                <h4>生日：2005/**/**</h4>
+                <h4>學校：高雄科技大學</h4>
+                <h4>科系：資訊管理系</h4>
+            </div>
+        </div>
+        <div class = "Section">
+            <div class = "block2">
+                <h2>興趣</h2>
+            </div>
+            <div class = "guitar-images">
+                <img src = "{{url_for('static', filename = 'images/guitar1.JPEG')}}" alt = "guitar1", style="width: 250px; height: auto;">
+                <img src = "{{url_for('static', filename = 'images/guitar2.JPEG')}}" alt = "guitar2", style="width: 250px; height: auto;">
+                <img src = "{{url_for('static', filename = 'images/guitar3.JPEG')}}" alt = "guitar3", style="width: 250px; height: auto;">
+            </div>
+        </div>
+        <div class = "Clearfix"></div>
+        <div class = "Footer">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><a href = "mailto:C112118206@nkust.edu.tw">Email：C112118206@nkust.edu.tw</a></td>
+                </tr>
+                <tr>
+                    <td>聯絡資訊</td>
+                    <td></td>
+                    <td>Phone：09********</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><a href = "https://www.instagram.com/wenaichen613/?hl=zh-tw" target="_blank">IG：wenaichen0613</a></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
